@@ -1,0 +1,57 @@
+@media all and (max-width: 600px){
+    #cursor{
+        height: 20px;
+        width: 20px;
+        background-color:yellow ;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99;
+        display: none;
+    }
+    
+    #cursor-blur{
+        height: 400px;
+        width: 400px;
+        background-color:rgba(255, 255, 0, 0.146) ;
+        border-radius: 50%;
+        position: fixed;
+        filter:blur(50px);
+        z-index: 9;
+        display: none;
+    }
+    #nav{
+        height: 90px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* padding: 0 5px; */
+        /* gap: 35px; */
+        position: fixed;
+        z-index: 99;
+    }
+    #nav img{
+        height: 50px;
+        background-color: aqua;
+        position: absolute;
+        left: 0;
+    }
+    #nav > h4{
+        font-size: 14px;
+        font-weight: 500;
+        display: none;
+    }
+    #nav > button{
+        position: absolute;
+        right: 10px;
+        height: px;
+        padding: 1vw 2.5vw;
+        background-color: rgb(233, 235, 221);
+        /* z-index: ; */
+        /* border-radius: 40px; */
+        /* display: none; */
+    }
+    #nav > button > h5{
+        font-size: 14px;
+    }
+}
